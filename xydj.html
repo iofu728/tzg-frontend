@@ -35,6 +35,61 @@
     <script src="js/demo.js"></script>
     <script src="js/xiala.js"></script>
     <script src="js/jquerySelect.js"></script>
+    <script type="text/javascript">
+        function insert() {
+            // var msg = document.getElementByIdx_x("msg");
+
+            var f = document.contact;
+            var name = f.name.value;
+            var workCompany = f.workCompany.value;
+            var startYear = f.startYear.value;
+            var educationLevel = f.educationLevel.value;
+            var phoneNum = f.phoneNum.value;
+            var email = f.email.value;
+
+            var url = "./insert.php";
+
+            var postStr = "&name=" + name + "&workCompany=" + workCompany + "&startYear=" + startYear + "&educationLevel" + educationLevel + "&phoneNum" + phoneNum + "&email" + email;
+
+            var ajax = false;
+            //开始初始化XMLHttpRequest对象
+            if (window.XMLHttpRequest) { //Mozilla 浏览器
+                ajax = new XMLHttpRequest();
+                if (ajax.overrideMimeType) {//设置MiME类别
+                    ajax.overrideMimeType("text/xml");
+                }
+            }
+            else if (window.ActiveXObject) { // IE浏览器
+                try {
+                    ajax = new ActiveXObject("Msxml2.XMLHTTP");
+                } catch (e) {
+                    try {
+                        ajax = new ActiveXObject("Microsoft.XMLHTTP");
+                    } catch (e) {
+                    }
+                }
+            }
+            if (!ajax) { // 异常，创建对象实例失败
+                window.alert("不能创建XMLHttpRequest对象实例.");
+                return false;
+            }
+
+            ajax.open("POST", url, true);
+
+            ajax.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+            ajax.send(postStr);
+
+            ajax.onreadystatechange = function () {
+                //如果执行状态成功，那么就把返回信息写到指定的层里
+                if (ajax.readyState == 4 && ajax.status == 200) {
+                    msg.innerHTML = ajax.responseText;
+                }
+            }
+            alert(name + "已登记！");
+        }
+
+    </script>
 </head>
 
 <body class="color">
@@ -73,36 +128,41 @@
     </div>
 
     <div class="collectform">
-        <form id="contact" action="" method="post" onsubmit="checkForm()">
+        <form id="contact" name="contact" action="##" method="post" onsubmit="return false">
 
             <fieldset>
-                <input placeholder="姓名" type="text" tabindex="1" required autofocus>
+                <input placeholder="姓名" id="name" type="text" tabindex="1" required autofocus>
             </fieldset>
             <fieldset>
-                <input placeholder="工作单位" type="text" tabindex="2" required>
-            </fieldset>
-
-            <fieldset>
-                <input placeholder="入学年份" type="text" tabindex="4" required>
-            </fieldset>
-            <fieldset>
-                <input placeholder="毕业学位" type="text" required></input>
+                <input placeholder="工作单位" id="workCompany" type="text" tabindex="2" required>
             </fieldset>
 
             <fieldset>
-                <input placeholder="手机号码" type="text" tabindex="2" required>
+                <input placeholder="入学年份" id="startYear" type="text" tabindex="4" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="毕业学位" id="educationLevel" type="text" required></input>
             </fieldset>
 
             <fieldset>
-                <input placeholder="邮箱" type="email" tabindex="2" required>
+                <input placeholder="手机号码" id="phoneNum" type="text" tabindex="2" required>
+            </fieldset>
+
+            <fieldset>
+                <input placeholder="邮箱" id="email" type="email" tabindex="2" required>
             </fieldset>
 
 
             <fieldset>
                 <div class='btnsub'>
-                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">提交</button>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" onclick="insert()">
+                        提交
+                    </button>
                 </div>
             </fieldset>
+            <p>
+            <div id="success"></div>
+            </p>
         </form>
     </div>
 
@@ -190,7 +250,7 @@
     };
 
     function checkForm() {
-        alert("表单已提交！");
+        // alert("表单已提交！");
 
     }
 </script>
