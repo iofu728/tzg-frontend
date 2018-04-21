@@ -1,1476 +1,1568 @@
-
 @charset "utf-8";
-@media screen and (max-width:1800px){
+@media screen and (max-width: 1800px) {
 
-.pageonewarp .Ymbox .case .info .btn{
-	padding-left:10px;
-}
-#timeday{
+    .pageonewarp .Ymbox .case .info .btn {
+        padding-left: 10px;
+    }
 
-		font-size: 24px;
+    #timeday {
 
-	}
+        font-size: 24px;
 
-}
-@media screen and (max-width:1440px) {
-	.bottomwarp .bottom {
-		width: 85%
-	}
+    }
 
-	.pageonewarp .tit .subtit {
-		width: 30%;
-		margin-left: -15%
-	}
-
-	.functionwarp {
-		width: 80%
-	}
-
-	.functionwarp .functionbtn {
-		font-size: 0;
-		line-height: 0
-	}
-
-	.functionwarp .functionbtn a {
-		margin-right: 1.33%
-	}
-
-	.newswarp {
-		width: 80%
-	}
-
-	.newswarp .newsbtn {
-		font-size: 0;
-		line-height: 0
-	}
-
-	.newswarp .newsbtn a {
-		margin-right: 1.33%
-	}
-    .schoolitem{
-		width:80%;
-	}
-	.schoolactivity{
-		width:80%;
-	}
-	.impresswarp {
-		width: 80%
-	}
-
-	.impresswarp .im-1 li img {
-		height: auto
-	}
-
-	.pageonewarp {
-		width: 80%
-	}
-
-	.pageonewarp .Ymbox .case .img {
-		margin-right: 25px
-	}
-
-	.pageonewarp .Ymbox .case .info .btn {
-		padding-left: 2px
-	}
-
-	.ym-company {
-		width: 70%
-	}
-
-	.impressdetails {
-		width: 70%
-	}
-	.plandetails{
-		width:70%;
-	}
-	.plandetails .article p{
-		line-height:1.2;
-	}
-}
-@media screen and (max-width:1300px) {
-.bannerinfo{left:5%;margin-left:0;}
-}
-@media screen and (max-width:1280px) {
-	#timeday{
-
-		font-size: 20px;
-
-	}
-
-	.header .nav li a {
-		padding: 6px 6px 0
-	}
-	.WarpBox {
-		width:95%;
-	}
-
-	.indexcont2 .cont .casewarp {
-		width: 85%
-	}
-
-	.indexcont3 .cont .itembox {
-		width: 90%
-	}
-
-	.bottomwarp .bottom {
-		width: 92%
-	}
-
-	.pageonewarp .Ymbox .case .info .btn {
-		padding-left: 15px
-	}
-
-	.newswarp {
-		width: 96%
-	}
-
-	.newswarp .newsbtn a {
-		margin-right: .9%
-	}
-
-	.pageonewarp {
-		width: 96%
-	}
-
-	.pageonewarp .Ymbox .case .img {
-		margin-right: 20px
-	}
-
-	.pageonewarp .Ymbox .case .info .word {
-		width: 78%
-	}
-
-	.ym-company {
-		width: 96%
-	}
-
-	.plandetails {
-		width: 96%
-	}
-
-	.impresswarp {
-		width: 96%
-	}
-
-	.schoolitem {
-		width: 96%
-	}
-
-	.schoolactivity {
-		width: 96%
-	}
-}
-@media screen and (max-width:1200px) {
-	.bottomwarp .bottom {
-		width: 100%
-	}
-
-	.bottomwarp .bottom .btmlogo {
-		margin-right: 30px
-	}
-
-	.bottomwarp .bottom .btmcode {
-		margin: 0 20px 0 30px
-	}
-	}
-@media screen and (max-width:1024px) {
-	#timeday{
-		font-size: 17px; 
-	}
-	.bannerinfo{width: 310px}
-	.banner .bannerinfo .p1 {
-		width: 310px;
-		box-sizing: border-box;
-		padding: 0 10px;
-		font-size: 20px
-	}
-
-	.banner .bannerinfo .p2 {
-		height: 70px;
-		line-height: 70px
-	}
-
-	.banner .bannerinfo .p2 b {
-		font-size: 50px
-	}
-
-	.indexcont1 .cont {
-		background-position: center center;
-		background-size: cover
-	}
-
-	.indexcont2 .cont .casewarp {
-		width: 85%
-	}
-
-	.indexcont3 .cont .itembox {
-		width: 95%
-	}
-
-	.indexcont3 .cont .itembox .swiper-wrapper .img {
-		width: 230px
-	}
-
-	.indexcont3 .cont .itembox .swiper-wrapper .info {
-		width: 75%
-	}
-
-	.indexcont3 .cont .itembox .swiper-wrapper .entry {
-		width: 25%
-	}
-
-	.functionwarp {
-		width: 80%
-	}
-
-	.functionwarp .functionbtn a {
-		margin-right: .5%
-	}
-
-	.functionwarp .functionbtn a.on:after {
-		bottom: -113px
-	}
-
-	.newswarp {
-		width: 80%
-	}
-
-	.newswarp .newsbtn a {
-		letter-spacing: 0
-	}
-
-	.newswarp .newsbtn a.on:after {
-		bottom: -133px
-	}
-
-	.pageonewarp {
-		width: 80%
-	}
-
-	.pageonewarp .tit .subtit {
-		width: 30%;
-		font-size: 24px;
-		margin-left: -15%;
-		top: -8%
-	}
-
-	.pageonewarp ul.list li i img {
-		width: 120px;
-		height: 120px
-	}
-
-	.pageonewarp ul.list li .info {
-		width: 65%
-	}
-
-	.pageonewarp .pagetwo .hot .info span {
-		width: 15%
-	}
-
-	.pageonewarp .pagetwo .hot .info .word {
-		width: 84%
-	}
-
-	.pageonewarp .pagetwo .case li img {
-		height: auto
-	}
-
-	.pageymwarp {
-		width: 90%
-	}
-
-	.pageonewarp .Ymbox .case .img {
-		margin-right: 25px
-	}
-
-	.pageonewarp .Ymbox .case .info .btn {
-		padding-left: 10px
-	}
-
-	.pageonewarp .Ymbox .case .info .btn a {
-		width: 90px
-	}
-
-	.ym-company {
-		width: 90%
-	}
-
-	.ym-company .company {
-		padding: 30px
-	}
-
-	.impresswarp {
-		width: 80%
-	}
-
-	.impresswarp .tit .subtit {
-		width: 30%;
-		font-size: 24px;
-		margin-left: -15%;
-		top: -10%
-	}
-
-	.impresswarp .im-1 li img {
-		height: 262px
-	}
-
-	.impressdetails {
-		width: 80%
-	}
-	.banner {
-		height: 500px
-	}
-	.bannerimg .infoword h1 {
-		margin: 35px 0 20px
-	}
 }
 
-@media screen and (max-width:1024px) {
-	a {
-		-webkit-tap-highlight-color: transparent
-	}
-
-	.WarpBox {
-		width: 96%;
-		max-width: none;
-	}
-	.bannerinfo{top:55px;}
-	.headerwarp {
-		height: 86px
-	}
-	.banner{margin-top:86px;}
-	.news-details {
-		margin-top: 108px;
-	}
-	.header .logo{padding-top:7px;}
-	.ym-company .location{line-height: 20px;padding:5px 0;height: auto}
-	.header .logo {
-		width: 30%
-	}
-
-	.header .logo img {
-		max-width: 85%
-	}
-
-	.header .nav {
-		float: none;
-		margin-left: 0;
-		position: fixed;
-		top: 0;
-		left: -50%;
-		width: 50%;
-		height: 100vh;
-		height: 100%;
-		background-color: rgba(255,255,255,1);
-		z-index: 9999;
-		padding-top: 10px;
-		transition: all ease .5s;
-		-webkit-transition: all ease .5s;
-		box-sizing: border-box
-	}
-
-	.header .nav.navshow {
-		left: 0
-	}
-
-	.layer {
-		position: fixed;
-		width: 100%;
-		height: 100%;
-		background-color: rgba(0,0,0,.8);
-		top: 0;
-		left: 0;
-		z-index: 107;
-		display: none
-	}
-
-	.layer .layerclose {
-		position: absolute;
-		top: 30px;
-		right: 30px;
-		width: 22px;
-		height: 22px;
-		background: url(../images/addico6.png) no-repeat
-	}
-
-	.header .nav li {
-		float: none
-	}
-
-	.header .nav li a {
-		display: block;
-		height: 40px;
-		line-height: 40px;
-		padding: 0;
-		font-size: 16px;
-		margin: 0;
-		text-align: center
-	}
-
-	.header .nav li a.active {
-		border-top: 0
-	}
-
-	.header .phonebtn {
-		display: block;
-		float: right;
-		width: 36px;
-		height: 30px;
-		background: url(../images/phonebtn.png) no-repeat;
-		margin-top: 8px;
-		margin-left: 8px
-	}
-
-	.header .language {
-		margin-top: 37px
-	}
-}
-@media screen and (max-width:920px) {
-	.bottomwarp .bottom .btm,.bottomwarp .bottom .btminfo p{text-align:center;}
-	 .ym-company .article img,.plandetails .article img ,.article img{width: auto !important;height: auto !important;display: inline-block !important;max-width: 100%}
-	}
-@media screen and (max-width:768px) {
-	
-	.headerwarp {
-		height: 60px
-	}
-	.news-details {
-		margin-top: 70px;
-	}
-	.header .logo {
-		width: 42%;
-		margin-top: 0
-	}
-	
-	.header .nav {
-		top: 0
-	}
-
-	.header .nav li a {
-		text-align: left;
-		line-height: 55px;
-		height: 55px;
-		text-indent: 30px;
-		background: url(../images/addico5.png) no-repeat 80% center
-	}
-
-	.header .nav li.logoico {
-		display: block;
-		margin-bottom: 50px
-	}
-
-	.header .nav li.logoico img {
-		max-width: 80%;
-		margin: 0 auto;
-		display: block
-	}
-
-	.header .language {
-		padding-top: 0;
-		margin-top: 14px
-	}
-	.header .phonebtn{margin-top:14px;}
-	.header .logo{padding-top:8px;}
-	.header .language a.active {
-		padding: 0;
-		border-top: 0;
-		color: #94070a
-	}
-
-	.fixedshare {
-		top: auto;
-		bottom: 30px;
-		right: 10px
-	}
-
-	.fixedshare a {
-		display: none
-	}
-
-	.fixedshare .gotop {
-		display: block;
-		background-color: #888787
-	}
-
-	.fixedshare .gotop:hover {
-		background-color: #656565
-	}
-
-	.pagenum {
-		display: none
-	}
-
-	.bottomwarp .bottom .btm {
-		width: 100%
-	}
-
-	.bottomwarp .bottom .btmlogo {
-		margin: 0 0 20px
-	}
-
-	.bottomwarp .bottom .btmcode {
-		margin: 20px 0
-	}
-
-	.bottomwarp .bottom .btminfo p {
-		text-align: center
-	}
-
-	.banner {
-		margin-top: 61px;
-		/*height: 300px*/
-	}
-
-	.banner .bannerinfo {
-		width: 245px;
-		top:30px;
-		/*position:static;width:100%;background-color:#94070a;padding:10px 0;
-		top: 30px;*/
-	}
-.banner .bannerinfo .p2{margin-top:0}
-	.banner .bannernav {
-		position:static;width:100%;
-		/*width: 94%;*/
-		height: 70px
-	}
-
-	.banner .bannernav ul li a i {
-		width: 35px;
-		height: 30px;
-		margin: 7px auto 5px;
-	}
-
-	.banner .bannernav ul li a p {
-		font-size: 16px
-	}
-
-	.banner .bannerinfo .p1 {
-		width: 245px;
-		height: 35px;
-		line-height: 35px;
-		font-size:16px;
-	}
-
-	.banner .bannerinfo .p2 {
-		width: 75px;
-		line-height: 35px;
-		height: 35px;
-		font-size: 16px;
-		padding: 0 15px;
-		/*margin-top:1px;*/
-	}
-
-	.banner .bannerinfo .p2 b {
-		font-size: 30px
-	}
-	.indexcont0 .tit {
-		height: auto
-	}
-
-	.indexcont0 .tit h1 {
-		padding: 10px 0 6px
-	}
-
-	.indexcont0 .tit p {
-		font-size: 14px;
-		margin-bottom: 10px
-	}
-
-	.indexcont0 .cont .newlist {
-		width: 100%
-	}
-
-	.indexcont0 .cont .newlist li {
-		float: none;
-		width: 100%;
-		margin-bottom: 1em
-	}
-	.indexcont0 .cont .newlist li h1{
-		height:auto;
-	}
-  
-	.indexcont1 .tit {
-		height: auto
-	}
-
-	.indexcont1 .tit h1 {
-		padding: 10px 0 6px
-	}
-
-	.indexcont1 .tit p {
-		font-size: 14px;
-		margin-bottom: 10px
-	}
-
-	.indexcont1 .cont {
-		min-width: inherit
-	}
-
-	.indexcont1 .cont ul {
-		width: 100%;
-		height: auto;
-		overflow: hidden
-	}
-
-	.indexcont1 .cont ul li {
-		float: left;
-		width: 33.3%;
-		height: auto;
-		padding: 3px;
-		position: relative;
-		box-sizing: border-box;
-		overflow: hidden
-	}
-
-	.indexcont1 .cont ul li a {
-		width: 100%;
-		height: auto;
-		margin: 0 auto;
-		background-image: none!important
-	}
-
-	.indexcont1 .cont ul li a .pimg {
-		display: block;
-		width: 100%;
-		height: auto
-	}
-
-	.indexcont1 .cont .schoolinfo {
-		margin-top: 10px
-	}
-
-	.indexcont2 .tit {
-		height: auto
-	}
-
-	.indexcont2 .tit h1 {
-		padding: 10px 0 6px
-	}
-
-	.indexcont2 .tit p {
-		font-size: 14px;
-		margin-bottom: 10px
-	}
-
-	.indexcont2 .cont .casewarp {
-		width: 96%;
-		background-color: transparent;
-		padding-bottom: 0
-	}
-
-	.indexcont2 .cont .casewarp .btn {
-		bottom: -40px
-	}
-
-	.indexcont2 .cont .casewarp .btn.prevbtn {
-		background-position: 90% center
-	}
-
-	.indexcont2 .cont .casewarp .btn.nextbtn {
-		background-position: 10% center
-	}
-
-	.indexcont2 .cont .casewarp {
-		height: auto;
-		margin: 30px auto 60px
-	}
-
-	.indexcont2 .cont .casebox {
-		width: 100%;
-		height: 1000px;
-		padding-bottom: 0
-	}
-
-	.indexcont2 .cont .casebox .swiper-wrapper {
-		height: auto!important
-	}
-
-	.indexcont2 .cont .casebox .swiper-slide {
-		height: auto!important
-	}
-
-	.indexcont2 .cont .casebox .swiper-slide a {
-		width: 100%;
-		float: none;
-		display: block;
-		height: auto;
-		overflow: hidden
-	}
-
-	.indexcont2 .cont .casebox .swiper-slide a:last-child {
-		margin-bottom: 0
-	}
-
-	.indexcont2 .cont .casebox .swiper-slide a img {
-		height: auto
-	}
-
-	.indexcont2 .cont .casebox .swiper-slide a span {
-		height: 40px;
-		line-height: 40px
-	}
-
-	.indexcont3 .tit {
-		height: auto
-	}
-
-	.indexcont3 .tit h1 {
-		padding: 10px 0 6px
-	}
-
-	.indexcont3 .tit p {
-		font-size: 14px;
-		margin-bottom: 10px
-	}
-
-	.indexcont3 .cont .itembox {
-		padding: 35px 10px 35px;
-		margin: 50px auto
-	}
-
-	.indexcont3 .cont .itembox {
-		width: 90%
-	}
-
-
-	.indexcont3 .cont .itembox .swiper-wrapper .img {
-		width: 100%;
-		height: auto;
-		float: none;
-		margin-right: 0
-	}
-
-	.indexcont3 .cont .itembox .swiper-wrapper .swiper-slide {
-		margin-bottom: 2px
-	}
-
-	.indexcont3 .cont .itembox .swiper-wrapper .info {
-		width: 100%;
-		height: auto;
-		margin-top: 10px
-	}
-
-	.indexcont3 .cont .itembox .swiper-wrapper .info h1 {
-		font-size: 16px;
-		height: auto;
-		padding:5px 0;
-		line-height: 25px
-	}
-	.indexcont3 .cont .itembox .swiper-wrapper .info p{
-		height:auto;
-		margin-bottom:10px;
-	}
-
-	.indexcont3 .cont .itembox .swiper-wrapper .entry {
-		width: 100%;
-		height: 50px;
-		text-align: center
-	}
-
-	.indexcont3 .cont .itembox .swiper-wrapper .entry a {
-		width: 73px;
-		height: 22px;
-		line-height: 22px;
-		margin: 0 10px
-	}
-
-	.bannerimg {
-		height: 170px;
-		margin-top: 61px
-	}
-
-	.functionwarp {
-		width: 95%
-	}
-
-	.functionwarp .functionbtn a {
-		background-position: center 10px;
-		height: 80px;
-		margin-right: 1%;
-		line-height: 120px
-	}
-
-	.functionwarp .functionbtn a.on:before {
-		width: 60px;
-		height: 25px;
-		margin-left: -30px;
-		bottom: -24px
-	}
-
-	.functionwarp .functionbtn a.on:after {
-		border-width: 30px;
-		bottom: -83px;
-		margin-left: -30px
-	}
-
-	.functionwarp .functioncont {
-		margin-top: 25px;
-		padding-top: 35px;
-		min-height: 350px
-	}
-    .functionwarp .cont1 .cont p{
-		font-size:16px;
-	}
-	.functionwarp .cont1 .cont {
-		width: 92%;
-		padding-top: 10px
-	}
-
-	.functionwarp .cont1 .cont .person {
-		margin-top: 20px
-	}
-
-	.functionwarp .cont1 .cont .person input {
-		font-size: 16px
-	}
-
-	.functionwarp .cont1 .cont .person .pl {
-		width: 100%
-	}
-
-	.functionwarp .cont1 .cont .person .pr {
-		width: 100%
-	}
-
-	.functionwarp .cont1 .cont input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
-		font-size: 16px
-	}
-
-	.functionwarp .cont1 .cont input:-moz-placeholder,textarea:-moz-placeholder {
-		font-size: 16px
-	}
-
-	.functionwarp .cont1 .cont input::-moz-placeholder,textarea::-moz-placeholder {
-		font-size: 16px
-	}
-
-	.functionwarp .cont1 .cont input:-ms-input-placeholder,textarea:-ms-input-placeholder {
-		font-size: 16px
-	}
-
-	.functionwarp .cont2 .cont {
-		width: 92%;
-		padding-top: 10px
-	}
-	.functionwarp .cont2 .cont p{
-		font-size:16px;
-	}
-
-	.functionwarp .cont2 .cont .person {
-		margin-top: 20px
-	}
-
-	.functionwarp .cont2 .cont .person .input {
-		font-size: 16px
-	}
-
-	.functionwarp .cont2 .cont .person .pl {
-		width: 100%
-	}
-
-	.functionwarp .cont2 .cont .person .pr {
-		width: 100%
-	}
-
-	.functionwarp .cont2 .cont .radio {
-		font-size: 16px
-	}
-
-	.functionwarp .cont2 .cont .radio label {
-		padding: 0 15px
-	}
-
-	.functionwarp .cont2 .cont input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
-		font-size: 16px
-	}
-
-	.functionwarp .cont2 .cont input:-moz-placeholder,textarea:-moz-placeholder {
-		font-size: 16px
-	}
-
-	.functionwarp .cont2 .cont input::-moz-placeholder,textarea::-moz-placeholder {
-		font-size: 16px
-	}
-
-	.functionwarp .cont2 .cont input:-ms-input-placeholder,textarea:-ms-input-placeholder {
-		font-size: 16px
-	}
-
-	.functionwarp .cont3 .cont {
-		width: 92%;
-		padding-top: 10px
-	}
-
-	.functionwarp .cont3 .cont .list {
-		margin-bottom: 25px
-	}
-
-	.functionwarp .cont3 .cont .list li {
-		float: none;
-		width: 100%;
-		min-height: inherit;
-		padding: 0
-	}
-
-	.newswarp {
-		width: 95%
-	}
-
-	.newswarp .newsbtn a {
-		font-size: 16px;
-		height: 80px;
-		line-height: 120px;
-		background-position:center 10px;
-	}
-
-	.newswarp .newsbtn a.on:before {
-		width: 80px;
-		margin-left: -40px
-	}
-
-	.newswarp .newsbtn a.on:after {
-		border-width: 40px;
-		margin-left: -40px;
-		bottom: -113px
-	}
-
-	.newswarp .cont1 .cont .tit {
-		font-size: 20px
-	}
-
-	.newswarp .cont2 .cont .tit {
-		font-size: 20px
-	}
-
-	.newswarp .cont3 .cont .tit {
-		font-size: 20px
-	}
-
-	.pageonewarp {
-		width: 95%;
-		padding: 35px 15px 15px;
-		box-sizing: border-box
-	}
-
-	.pageonewarp .tit {
-		padding: 10px
-	}
-
-	.pageonewarp .tit p {
-		text-align: left;
-		display: inline
-	}
-
-	.pageonewarp .tit .subtit {
-		font-size: 16px;
-		top: -6.5%
-	}
-
-	.pageonewarp ul.list:before {
-		display: none
-	}
-
-	.pageonewarp ul.list:after {
-		display: none
-	}
-
-	.pageonewarp ul.list li {
-		width: 100%
-	}
-
-	.pageonewarp ul.list li i {
-		width: 100%
-	}
-
-	.pageonewarp ul.list li .info {
-		width: 100%;
-		height: auto
-	}
-
-	.pageonewarp ul.list li .info h6 {
-		text-align: center
-	}
-
-	.pageonewarp ul.list li.left .info h6 {
-		text-align: center
-	}
-
-	.pageonewarp ul.list li.left .info p {
-		text-align: left
-	}
-
-	.pageonewarp .pagetwo .hot .info span {
-		width: 100%;
-		text-align: left;
-		padding-bottom: 8px
-	}
-
-	.pageonewarp .pagetwo .hot .info .word {
-		width: 100%
-	}
-
-	.pageonewarp .pagetwo .case li {
-		width: 100%;
-		margin-right: 0
-	}
-
-	.pageonewarp .pagetwo .case li img {
-		height: auto
-	}
-
-	.plandetails {
-		width: 95%
-	}
-
-	.plandetails .location {
-		height: auto
-	}
-
-	.plandetails .article {
-		padding: 15px
-	}
-
-	.plandetails .article .sharegroup a {
-		width: 32px;
-		height: 32px
-	}
-
-	.pageonewarp .Ymbox .case .img {
-		width: 100%;
-		margin-right: 0;
-		float: none
-	}
-
-	.pageonewarp .Ymbox .case .info .word {
-		width: 100%;
-		height: auto;
-		padding: 15px;
-		box-sizing: border-box
-	}
-
-	.pageonewarp .Ymbox .case .info .btn {
-		width: 100%;
-		padding: 0 15px 15px;
-		box-sizing: border-box;
-		text-align: center
-	}
-
-	.pageonewarp .Ymbox .case .info .btn a {
-		display: inline-block;
-		margin: 0 5px
-	}
-
-	.ym-company {
-		width: 95%
-	}
-
-	.ym-company .company {
-		padding: 20px
-	}
-
-	.ym-company .company .formbox {
-		width: 100%
-	}
-
-	.ym-company .company .select .nice-select {
-		margin-top: 10px;
-		display: block;
-		margin-bottom: 10px
-	}
-
-	.ym-company .company .inputbox .tl,.ym-company .company .inputbox .tr {
-		width: 100%
-	}
-
-	.ym-company .company .select label.first {
-		padding-left: 0
-	}
-
-	.ym-company .location {
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap
-	}
-
-	.ym-company .article {
-		padding: 15px
-	}
-
-	.ym-company .article .sharegroup a {
-		width: 32px;
-		height: 32px
-	}
-	
-	.ym-company .article p{
-		line-height:1.2;
-	}
-
-	.ym-company .article .btngroup a {
-		margin: 15px
-	}
-	.ym-company .article .sharegroup .s2{
-		display:none;
-	}
-	
-
-	.impresswarp {
-		width: 95%;
-		padding: 35px 15px 15px;
-		box-sizing: border-box
-	}
-
-	.impresswarp .tit {
-		padding: 10px
-	}
-
-	.impresswarp .tit .subtit {
-		font-size: 16px;
-		top: -5.5%
-	}
-
-	.impresswarp .im-1 li {
-		float: none;
-		width: 100%;
-		margin-right: 0
-	}
-
-	.impresswarp .im-1 li img {
-		height: auto
-	}
-
-	.impressdetails {
-		width: 95%
-	}
-
-	.impressdetails .articlebox {
-		padding: 20px
-	}
-
-	.impressdetails .articlebox .info .word {
-		padding-left: 0
-	}
-
-	.impressdetails .articlebox .info .word h2 {
-		font-size: 20px
-	}
-
-	.impressdetails .articlebox .info .word p {
-		font-size: 17px
-	}
-
-	.bannerimg .infoword {
-		width: 95%
-	}
-
-	.bannerimg .infoword h1 {
-		font-size: 18px;
-		margin: 5px 0 2px;
-		font-weight: 400
-	}
-
-	.bannerimg .infoword p {
-		font-size: 14px;
-		line-height: 18px
-	}
-
-	.impressdetails .imglist ul li {
-		float: none;
-		width: 100%;
-		margin-right: 0
-	}
-
-	.newswarp .cont4 {
-		padding: 35px 15px 15px
-	}
-
-	.newswarp .cont4 .item {
-		margin: 0 auto 0;
-		padding-bottom: 25px
-	}
-
-	.newswarp .cont4 .item .img {
-		width: 100%;
-		height: auto;
-		float: none
-	}
-
-	.newswarp .cont4 ul {
-		width: 94%;
-		margin: 25px auto 0
-	}
-
-	.newswarp .cont4 ul li {
-		width: 100%;
-		float: none
-	}
-
-	.newswarp .cont4 ul li img {
-		width: 100%
-	}
-
-	.schoolitem {
-		width: 96%
-	}
-
-	.schoolitem .newscont {
-		padding: 45px 15px 15px
-	}
-
-	.schoolitem .newscont .cont h2 {
-		font-size: 20px
-	}
-
-	.schoolitem .newscont .list li {
-		width: 100%;
-		margin-right: 0;
-		margin-bottom: 4%;
-		float: none;
-		border:#e5e5e5 solid 1px;
-		box-sizing:border-box;
-	}
-	.schoolitem .newscont .list li .info p{
-		height:auto;
-	}
-
-	.schoolactivity {
-		padding: 35px 15px 15px
-	}
-
-	.schoolactivity .titbox h1 {
-		font-size: 20px
-	}
-
-	.schoolactivity .timelinebox:before {
-		left: 20px
-	}
-	.schoolactivity .timelinebox .timeyear{
-		margin:0 0 0 50px;
-	}
-
-	.newswarp .cont4 .titbox h1 {
-		font-size: 20px
-	}
-
-	.pageonewarp .tit h1 {
-		font-size: 20px
-	}
-	.plandetails .article .sharegroup .s2{
-		display:none;
-	}
+@media screen and (max-width: 1440px) {
+    .bottomwarp .bottom {
+        width: 85%
+    }
+
+    .pageonewarp .tit .subtit {
+        width: 30%;
+        margin-left: -15%
+    }
+
+    .functionwarp {
+        width: 80%
+    }
+
+    .functionwarp .functionbtn {
+        font-size: 0;
+        line-height: 0
+    }
+
+    .functionwarp .functionbtn a {
+        margin-right: 1.33%
+    }
+
+    .newswarp {
+        width: 80%
+    }
+
+    .newswarp .newsbtn {
+        font-size: 0;
+        line-height: 0
+    }
+
+    .newswarp .newsbtn a {
+        margin-right: 1.33%
+    }
+
+    .schoolitem {
+        width: 80%;
+    }
+
+    .schoolactivity {
+        width: 80%;
+    }
+
+    .impresswarp {
+        width: 80%
+    }
+
+    .impresswarp .im-1 li img {
+        height: auto
+    }
+
+    .pageonewarp {
+        width: 80%
+    }
+
+    .pageonewarp .Ymbox .case .img {
+        margin-right: 25px
+    }
+
+    .pageonewarp .Ymbox .case .info .btn {
+        padding-left: 2px
+    }
+
+    .ym-company {
+        width: 70%
+    }
+
+    .impressdetails {
+        width: 70%
+    }
+
+    .plandetails {
+        width: 70%;
+    }
+
+    .plandetails .article p {
+        line-height: 1.2;
+    }
 }
 
-@media only screen and (max-device-width :1280px) and (orientation:landscape) {
-	.header .logo {
-		width: 260px;
-		padding-top:10px;
-	}
-	
-	.header .logo img{max-width:100%;}
+@media screen and (max-width: 1300px) {
+    .bannerinfo {
+        left: 5%;
+        margin-left: 0;
+    }
 }
 
-@media only screen and (min-device-width :768px) and (max-device-width :1024px) and (orientation :landscape) {
-	
-	.header .phonebtn {
-		margin-top: 39px
-	}
+@media screen and (max-width: 1280px) {
+    #timeday {
 
-	.header .language {
-		padding-top: 0;
-		margin-top: 42px
-	}
+        font-size: 20px;
 
-	.header .language a.active {
-		padding: 0;
-		border-top: 0;
-		color: #94070a
-	}
-	.header .language{margin-top:26px;}
-	.header .phonebtn{margin-top:28px;}
+    }
+
+    .header .nav li a {
+        padding: 6px 6px 0
+    }
+
+    .WarpBox {
+        width: 95%;
+    }
+
+    .indexcont2 .cont .casewarp {
+        width: 85%
+    }
+
+    .indexcont3 .cont .itembox {
+        width: 90%
+    }
+
+    .bottomwarp .bottom {
+        width: 92%
+    }
+
+    .pageonewarp .Ymbox .case .info .btn {
+        padding-left: 15px
+    }
+
+    .newswarp {
+        width: 96%
+    }
+
+    .newswarp .newsbtn a {
+        margin-right: .9%
+    }
+
+    .pageonewarp {
+        width: 96%
+    }
+
+    .pageonewarp .Ymbox .case .img {
+        margin-right: 20px
+    }
+
+    .pageonewarp .Ymbox .case .info .word {
+        width: 78%
+    }
+
+    .ym-company {
+        width: 96%
+    }
+
+    .plandetails {
+        width: 96%
+    }
+
+    .impresswarp {
+        width: 96%
+    }
+
+    .schoolitem {
+        width: 96%
+    }
+
+    .schoolactivity {
+        width: 96%
+    }
 }
 
-@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait) {
-	.header .logo {
-		width: 30%
-	}
-	
-}
-@media screen and (max-width: 768px){
-	.header .logo{width:165px;padding-top:8px;}
+@media screen and (max-width: 1200px) {
+    .bottomwarp .bottom {
+        width: 100%
+    }
 
-	}
-@media screen and (max-width: 640px){
-.bannerinfo{top:20%;}
-}
-@media screen and (max-width:360px) {
-	.bannerinfo{top:5%;}
-	.header .logo {
-		margin-top:0px
-	}
+    .bottomwarp .bottom .btmlogo {
+        margin-right: 30px
+    }
 
-	.header .language {
-		float: right;
-		margin-top: 10px
-	}
-
-	.header .nav li.logoico {
-		margin-bottom: 20px
-	}
-
-	.functionwarp .functioncont {
-		margin-top: 24px;
-		padding-top: 35px
-	}
-
-	.functionwarp .cont2 .cont .radio {
-		overflow: hidden;
-		height: 60px
-	}
-
-	.functionwarp .cont2 .cont .radio span {
-		display: block;
-		line-height: 30px
-	}
-
-	.functionwarp .cont2 .cont .radio label {
-		margin-bottom: 20px
-	}
-
-	.newswarp .newsbtn a {
-		margin-right: 0;
-		font-size: 16px;
-		height: 80px;
-		background-position: center 8px;
-		line-height: 120px
-	}
-
-	.pageonewarp {
-		width: 98%;
-		padding: 25px 10px 10px;
-		box-sizing: border-box
-	}
-
-	.pageonewarp .tit .subtit {
-		font-size: 16px;
-		top: -4%
-	}
-
-	.pageonewarp ul.list li i img {
-		width: 80px;
-		height: 80px
-	}
-
-	.pageonewarp ul.list li .info h6 {
-		font-size: 16px
-	}
-
-	.pageonewarp .pagetwo .case li img {
-		height: 320px
-	}
-
-	.pageonewarp .Ymbox .case .info .btn a {
-		margin: 5px;
-	}
-
-	.impresswarp {
-		width: 98%;
-		padding: 25px 10px 10px;
-		box-sizing: border-box
-	}
-
-	.impresswarp .tit .subtit {
-		font-size: 16px;
-		top: -4%
-	}
-
-	.newswarp .newsbtn a.on:before {
-		width: 60px;
-		margin-left: -30px
-	}
-
-	.newswarp .newsbtn a.on:after {
-		border-width: 30px;
-		margin-left: -30px;
-		bottom: -93px
-	}
-}
-@media screen and (max-width:320px) {
-	.header .logo {
-		margin-top:5px
-	}
-
-	.header .language {
-		float: right;
-		margin-top: -40px;
-		margin-right:45px;
-	}
+    .bottomwarp .bottom .btmcode {
+        margin: 0 20px 0 30px
+    }
 }
 
-@media only screen and (max-device-width :768px) and (orientation:landscape) {
-	.indexcont3 .cont .itembox .swiper-item {
-		height: 640px
-	}
+@media screen and (max-width: 1024px) {
+    #timeday {
+        font-size: 17px;
+    }
 
-	.indexcont3 .cont .itembox .swiper-wrapper .img {
-		height: 175px
-	}
+    .bannerinfo {
+        width: 310px
+    }
+
+    .banner .bannerinfo .p1 {
+        width: 310px;
+        box-sizing: border-box;
+        padding: 0 10px;
+        font-size: 20px
+    }
+
+    .banner .bannerinfo .p2 {
+        height: 70px;
+        line-height: 70px
+    }
+
+    .banner .bannerinfo .p2 b {
+        font-size: 50px
+    }
+
+    .indexcont1 .cont {
+        background-position: center center;
+        background-size: cover
+    }
+
+    .indexcont2 .cont .casewarp {
+        width: 85%
+    }
+
+    .indexcont3 .cont .itembox {
+        width: 95%
+    }
+
+    .indexcont3 .cont .itembox .swiper-wrapper .img {
+        width: 230px
+    }
+
+    .indexcont3 .cont .itembox .swiper-wrapper .info {
+        width: 75%
+    }
+
+    .indexcont3 .cont .itembox .swiper-wrapper .entry {
+        width: 25%
+    }
+
+    .functionwarp {
+        width: 80%
+    }
+
+    .functionwarp .functionbtn a {
+        margin-right: .5%
+    }
+
+    .functionwarp .functionbtn a.on:after {
+        bottom: -113px
+    }
+
+    .newswarp {
+        width: 80%
+    }
+
+    .newswarp .newsbtn a {
+        letter-spacing: 0
+    }
+
+    .newswarp .newsbtn a.on:after {
+        bottom: -133px
+    }
+
+    .pageonewarp {
+        width: 80%
+    }
+
+    .pageonewarp .tit .subtit {
+        width: 30%;
+        font-size: 24px;
+        margin-left: -15%;
+        top: -8%
+    }
+
+    .pageonewarp ul.list li i img {
+        width: 120px;
+        height: 120px
+    }
+
+    .pageonewarp ul.list li .info {
+        width: 65%
+    }
+
+    .pageonewarp .pagetwo .hot .info span {
+        width: 15%
+    }
+
+    .pageonewarp .pagetwo .hot .info .word {
+        width: 84%
+    }
+
+    .pageonewarp .pagetwo .case li img {
+        height: auto
+    }
+
+    .pageymwarp {
+        width: 90%
+    }
+
+    .pageonewarp .Ymbox .case .img {
+        margin-right: 25px
+    }
+
+    .pageonewarp .Ymbox .case .info .btn {
+        padding-left: 10px
+    }
+
+    .pageonewarp .Ymbox .case .info .btn a {
+        width: 90px
+    }
+
+    .ym-company {
+        width: 90%
+    }
+
+    .ym-company .company {
+        padding: 30px
+    }
+
+    .impresswarp {
+        width: 80%
+    }
+
+    .impresswarp .tit .subtit {
+        width: 30%;
+        font-size: 24px;
+        margin-left: -15%;
+        top: -10%
+    }
+
+    .impresswarp .im-1 li img {
+        height: 262px
+    }
+
+    .impressdetails {
+        width: 80%
+    }
+
+    .banner {
+        height: 500px
+    }
+
+    .bannerimg .infoword h1 {
+        margin: 35px 0 20px
+    }
 }
 
+@media screen and (max-width: 1024px) {
+    a {
+        -webkit-tap-highlight-color: transparent
+    }
 
-@media screen and (max-width: 1024px){
-	.functionwarp .functionbtn a {
-	    margin-right: 0%;
-	}
-	.newswarp .newsbtn a {
-	    margin-right: 0%;
-	}
+    .WarpBox {
+        width: 96%;
+        max-width: none;
+    }
+
+    .bannerinfo {
+        top: 55px;
+    }
+
+    .headerwarp {
+        height: 86px
+    }
+
+    .banner {
+        margin-top: 86px;
+    }
+
+    .news-details {
+        margin-top: 108px;
+    }
+
+    .header .logo {
+        padding-top: 7px;
+    }
+
+    .ym-company .location {
+        line-height: 20px;
+        padding: 5px 0;
+        height: auto
+    }
+
+    .header .logo {
+        width: 30%
+    }
+
+    .header .logo img {
+        max-width: 85%
+    }
+
+    .header .nav {
+        float: none;
+        margin-left: 0;
+        position: fixed;
+        top: 0;
+        left: -50%;
+        width: 50%;
+        height: 100vh;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 1);
+        z-index: 9999;
+        padding-top: 10px;
+        transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        box-sizing: border-box
+    }
+
+    .header .nav.navshow {
+        left: 0
+    }
+
+    .layer {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .8);
+        top: 0;
+        left: 0;
+        z-index: 107;
+        display: none
+    }
+
+    .layer .layerclose {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        width: 22px;
+        height: 22px;
+        background: url(../images/addico6.png) no-repeat
+    }
+
+    .header .nav li {
+        float: none
+    }
+
+    .header .nav li a {
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        padding: 0;
+        font-size: 16px;
+        margin: 0;
+        text-align: center
+    }
+
+    .header .nav li a.active {
+        border-top: 0
+    }
+
+    .header .phonebtn {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 30px;
+        background: url(../images/phonebtn.png) no-repeat;
+        margin-top: 8px;
+        margin-left: 8px
+    }
+
+    .header .language {
+        margin-top: 37px
+    }
 }
 
+@media screen and (max-width: 920px) {
+    .bottomwarp .bottom .btm, .bottomwarp .bottom .btminfo p {
+        text-align: center;
+    }
+
+    .ym-company .article img, .plandetails .article img, .article img {
+        width: auto !important;
+        height: auto !important;
+        display: inline-block !important;
+        max-width: 100%
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .headerwarp {
+        height: 60px
+    }
+
+    .news-details {
+        margin-top: 70px;
+    }
+
+    .header .logo {
+        width: 42%;
+        margin-top: 0
+    }
+
+    .header .nav {
+        top: 0
+    }
+
+    .header .nav li a {
+        text-align: left;
+        line-height: 55px;
+        height: 55px;
+        text-indent: 30px;
+        background: url(../images/addico5.png) no-repeat 80% center
+    }
+
+    .header .nav li.logoico {
+        display: block;
+        margin-bottom: 50px
+    }
+
+    .header .nav li.logoico img {
+        max-width: 80%;
+        margin: 0 auto;
+        display: block
+    }
+
+    .header .language {
+        padding-top: 0;
+        margin-top: 14px
+    }
+
+    .header .phonebtn {
+        margin-top: 14px;
+    }
+
+    .header .logo {
+        padding-top: 8px;
+    }
+
+    .header .language a.active {
+        padding: 0;
+        border-top: 0;
+        color: #94070a
+    }
+
+    .fixedshare {
+        top: auto;
+        bottom: 30px;
+        right: 10px
+    }
+
+    .fixedshare a {
+        display: none
+    }
+
+    .fixedshare .gotop {
+        display: block;
+        background-color: #888787
+    }
+
+    .fixedshare .gotop:hover {
+        background-color: #656565
+    }
+
+    .pagenum {
+        display: none
+    }
+
+    .bottomwarp .bottom .btm {
+        width: 100%
+    }
+
+    .bottomwarp .bottom .btmlogo {
+        margin: 0 0 20px
+    }
+
+    .bottomwarp .bottom .btmcode {
+        margin: 20px 0
+    }
+
+    .bottomwarp .bottom .btminfo p {
+        text-align: center
+    }
+
+    .banner {
+        margin-top: 61px;
+        /*height: 300px*/
+    }
+
+    .banner .bannerinfo {
+        width: 245px;
+        top: 30px;
+        /*position:static;width:100%;background-color:#94070a;padding:10px 0;
+        top: 30px;*/
+    }
+
+    .banner .bannerinfo .p2 {
+        margin-top: 0
+    }
+
+    .banner .bannernav {
+        position: static;
+        width: 100%;
+        /*width: 94%;*/
+        height: 70px
+    }
+
+    .banner .bannernav ul li a i {
+        width: 35px;
+        height: 30px;
+        margin: 7px auto 5px;
+    }
+
+    .banner .bannernav ul li a p {
+        font-size: 16px
+    }
+
+    .banner .bannerinfo .p1 {
+        width: 245px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+
+    .banner .bannerinfo .p2 {
+        width: 75px;
+        line-height: 35px;
+        height: 35px;
+        font-size: 16px;
+        padding: 0 15px;
+        /*margin-top:1px;*/
+    }
+
+    .banner .bannerinfo .p2 b {
+        font-size: 30px
+    }
+
+    .indexcont0 .tit {
+        height: auto
+    }
+
+    .indexcont0 .tit h1 {
+        padding: 10px 0 6px
+    }
+
+    .indexcont0 .tit p {
+        font-size: 14px;
+        margin-bottom: 10px
+    }
+
+    .indexcont0 .cont .newlist {
+        width: 100%
+    }
+
+    .indexcont0 .cont .newlist li {
+        float: none;
+        width: 100%;
+        margin-bottom: 1em
+    }
+
+    .indexcont0 .cont .newlist li h1 {
+        height: auto;
+    }
+
+    .indexcont1 .tit {
+        height: auto
+    }
+
+    .indexcont1 .tit h1 {
+        padding: 10px 0 6px
+    }
+
+    .indexcont1 .tit p {
+        font-size: 14px;
+        margin-bottom: 10px
+    }
+
+    .indexcont1 .cont {
+        min-width: inherit
+    }
+
+    .indexcont1 .cont ul {
+        width: 100%;
+        height: auto;
+        overflow: hidden
+    }
+
+    .indexcont1 .cont ul li {
+        float: left;
+        width: 33.3%;
+        height: auto;
+        padding: 3px;
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden
+    }
+
+    .indexcont1 .cont ul li a {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        background-image: none !important
+    }
+
+    .indexcont1 .cont ul li a .pimg {
+        display: block;
+        width: 100%;
+        height: auto
+    }
+
+    .indexcont1 .cont .schoolinfo {
+        margin-top: 10px
+    }
+
+    .indexcont2 .tit {
+        height: auto
+    }
+
+    .indexcont2 .tit h1 {
+        padding: 10px 0 6px
+    }
+
+    .indexcont2 .tit p {
+        font-size: 14px;
+        margin-bottom: 10px
+    }
+
+    .indexcont2 .cont .casewarp {
+        width: 96%;
+        background-color: transparent;
+        padding-bottom: 0
+    }
+
+    .indexcont2 .cont .casewarp .btn {
+        bottom: -40px
+    }
+
+    .indexcont2 .cont .casewarp .btn.prevbtn {
+        background-position: 90% center
+    }
+
+    .indexcont2 .cont .casewarp .btn.nextbtn {
+        background-position: 10% center
+    }
+
+    .indexcont2 .cont .casewarp {
+        height: auto;
+        margin: 30px auto 60px
+    }
+
+    .indexcont2 .cont .casebox {
+        width: 100%;
+        height: 1000px;
+        padding-bottom: 0
+    }
+
+    .indexcont2 .cont .casebox .swiper-wrapper {
+        height: auto !important
+    }
+
+    .indexcont2 .cont .casebox .swiper-slide {
+        height: auto !important
+    }
+
+    .indexcont2 .cont .casebox .swiper-slide a {
+        width: 100%;
+        float: none;
+        display: block;
+        height: auto;
+        overflow: hidden
+    }
+
+    .indexcont2 .cont .casebox .swiper-slide a:last-child {
+        margin-bottom: 0
+    }
+
+    .indexcont2 .cont .casebox .swiper-slide a img {
+        height: auto
+    }
+
+    .indexcont2 .cont .casebox .swiper-slide a span {
+        height: 40px;
+        line-height: 40px
+    }
+
+    .indexcont3 .tit {
+        height: auto
+    }
+
+    .indexcont3 .tit h1 {
+        padding: 10px 0 6px
+    }
+
+    .indexcont3 .tit p {
+        font-size: 14px;
+        margin-bottom: 10px
+    }
+
+    .indexcont3 .cont .itembox {
+        padding: 35px 10px 35px;
+        margin: 50px auto
+    }
+
+    .indexcont3 .cont .itembox {
+        width: 90%
+    }
+
+    .indexcont3 .cont .itembox .swiper-wrapper .img {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-right: 0
+    }
+
+    .indexcont3 .cont .itembox .swiper-wrapper .swiper-slide {
+        margin-bottom: 2px
+    }
+
+    .indexcont3 .cont .itembox .swiper-wrapper .info {
+        width: 100%;
+        height: auto;
+        margin-top: 10px
+    }
+
+    .indexcont3 .cont .itembox .swiper-wrapper .info h1 {
+        font-size: 16px;
+        height: auto;
+        padding: 5px 0;
+        line-height: 25px
+    }
+
+    .indexcont3 .cont .itembox .swiper-wrapper .info p {
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .indexcont3 .cont .itembox .swiper-wrapper .entry {
+        width: 100%;
+        height: 50px;
+        text-align: center
+    }
+
+    .indexcont3 .cont .itembox .swiper-wrapper .entry a {
+        width: 73px;
+        height: 22px;
+        line-height: 22px;
+        margin: 0 10px
+    }
+
+    .bannerimg {
+        height: 170px;
+        margin-top: 61px
+    }
+
+    .functionwarp {
+        width: 95%
+    }
+
+    .functionwarp .functionbtn a {
+        background-position: center 10px;
+        height: 80px;
+        margin-right: 1%;
+        line-height: 120px
+    }
+
+    .functionwarp .functionbtn a.on:before {
+        width: 60px;
+        height: 25px;
+        margin-left: -30px;
+        bottom: -24px
+    }
+
+    .functionwarp .functionbtn a.on:after {
+        border-width: 30px;
+        bottom: -83px;
+        margin-left: -30px
+    }
+
+    .functionwarp .functioncont {
+        margin-top: 25px;
+        padding-top: 35px;
+        min-height: 350px
+    }
+
+    .functionwarp .cont1 .cont p {
+        font-size: 16px;
+    }
+
+    .functionwarp .cont1 .cont {
+        width: 92%;
+        padding-top: 10px
+    }
+
+    .functionwarp .cont1 .cont .person {
+        margin-top: 20px
+    }
+
+    .functionwarp .cont1 .cont .person input {
+        font-size: 16px
+    }
+
+    .functionwarp .cont1 .cont .person .pl {
+        width: 100%
+    }
+
+    .functionwarp .cont1 .cont .person .pr {
+        width: 100%
+    }
+
+    .functionwarp .cont1 .cont input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+        font-size: 16px
+    }
+
+    .functionwarp .cont1 .cont input:-moz-placeholder, textarea:-moz-placeholder {
+        font-size: 16px
+    }
+
+    .functionwarp .cont1 .cont input::-moz-placeholder, textarea::-moz-placeholder {
+        font-size: 16px
+    }
+
+    .functionwarp .cont1 .cont input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+        font-size: 16px
+    }
+
+    .functionwarp .cont2 .cont {
+        width: 92%;
+        padding-top: 10px
+    }
+
+    .functionwarp .cont2 .cont p {
+        font-size: 16px;
+    }
+
+    .functionwarp .cont2 .cont .person {
+        margin-top: 20px
+    }
+
+    .functionwarp .cont2 .cont .person .input {
+        font-size: 16px
+    }
+
+    .functionwarp .cont2 .cont .person .pl {
+        width: 100%
+    }
+
+    .functionwarp .cont2 .cont .person .pr {
+        width: 100%
+    }
+
+    .functionwarp .cont2 .cont .radio {
+        font-size: 16px
+    }
+
+    .functionwarp .cont2 .cont .radio label {
+        padding: 0 15px
+    }
+
+    .functionwarp .cont2 .cont input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+        font-size: 16px
+    }
+
+    .functionwarp .cont2 .cont input:-moz-placeholder, textarea:-moz-placeholder {
+        font-size: 16px
+    }
+
+    .functionwarp .cont2 .cont input::-moz-placeholder, textarea::-moz-placeholder {
+        font-size: 16px
+    }
+
+    .functionwarp .cont2 .cont input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+        font-size: 16px
+    }
+
+    .functionwarp .cont3 .cont {
+        width: 92%;
+        padding-top: 10px
+    }
+
+    .functionwarp .cont3 .cont .list {
+        margin-bottom: 25px
+    }
+
+    .functionwarp .cont3 .cont .list li {
+        float: none;
+        width: 100%;
+        min-height: inherit;
+        padding: 0
+    }
+
+    .newswarp {
+        width: 95%
+    }
+
+    .newswarp .newsbtn a {
+        font-size: 16px;
+        height: 80px;
+        line-height: 120px;
+        background-position: center 10px;
+    }
+
+    .newswarp .newsbtn a.on:before {
+        width: 80px;
+        margin-left: -40px
+    }
+
+    .newswarp .newsbtn a.on:after {
+        border-width: 40px;
+        margin-left: -40px;
+        bottom: -113px
+    }
+
+    .newswarp .cont1 .cont .tit {
+        font-size: 20px
+    }
+
+    .newswarp .cont2 .cont .tit {
+        font-size: 20px
+    }
+
+    .newswarp .cont3 .cont .tit {
+        font-size: 20px
+    }
+
+    .pageonewarp {
+        width: 95%;
+        padding: 35px 15px 15px;
+        box-sizing: border-box
+    }
+
+    .pageonewarp .tit {
+        padding: 10px
+    }
+
+    .pageonewarp .tit p {
+        text-align: left;
+        display: inline
+    }
+
+    .pageonewarp .tit .subtit {
+        font-size: 16px;
+        top: -6.5%
+    }
+
+    .pageonewarp ul.list:before {
+        display: none
+    }
+
+    .pageonewarp ul.list:after {
+        display: none
+    }
+
+    .pageonewarp ul.list li {
+        width: 100%
+    }
+
+    .pageonewarp ul.list li i {
+        width: 100%
+    }
+
+    .pageonewarp ul.list li .info {
+        width: 100%;
+        height: auto
+    }
+
+    .pageonewarp ul.list li .info h6 {
+        text-align: center
+    }
+
+    .pageonewarp ul.list li.left .info h6 {
+        text-align: center
+    }
+
+    .pageonewarp ul.list li.left .info p {
+        text-align: left
+    }
+
+    .pageonewarp .pagetwo .hot .info span {
+        width: 100%;
+        text-align: left;
+        padding-bottom: 8px
+    }
+
+    .pageonewarp .pagetwo .hot .info .word {
+        width: 100%
+    }
+
+    .pageonewarp .pagetwo .case li {
+        width: 100%;
+        margin-right: 0
+    }
+
+    .pageonewarp .pagetwo .case li img {
+        height: auto
+    }
+
+    .plandetails {
+        width: 95%
+    }
+
+    .plandetails .location {
+        height: auto
+    }
+
+    .plandetails .article {
+        padding: 15px
+    }
+
+    .plandetails .article .sharegroup a {
+        width: 32px;
+        height: 32px
+    }
+
+    .pageonewarp .Ymbox .case .img {
+        width: 100%;
+        margin-right: 0;
+        float: none
+    }
+
+    .pageonewarp .Ymbox .case .info .word {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        box-sizing: border-box
+    }
+
+    .pageonewarp .Ymbox .case .info .btn {
+        width: 100%;
+        padding: 0 15px 15px;
+        box-sizing: border-box;
+        text-align: center
+    }
+
+    .pageonewarp .Ymbox .case .info .btn a {
+        display: inline-block;
+        margin: 0 5px
+    }
+
+    .ym-company {
+        width: 95%
+    }
+
+    .ym-company .company {
+        padding: 20px
+    }
+
+    .ym-company .company .formbox {
+        width: 100%
+    }
+
+    .ym-company .company .select .nice-select {
+        margin-top: 10px;
+        display: block;
+        margin-bottom: 10px
+    }
+
+    .ym-company .company .inputbox .tl, .ym-company .company .inputbox .tr {
+        width: 100%
+    }
+
+    .ym-company .company .select label.first {
+        padding-left: 0
+    }
+
+    .ym-company .location {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap
+    }
+
+    .ym-company .article {
+        padding: 15px
+    }
+
+    .ym-company .article .sharegroup a {
+        width: 32px;
+        height: 32px
+    }
+
+    .ym-company .article p {
+        line-height: 1.2;
+    }
+
+    .ym-company .article .btngroup a {
+        margin: 15px
+    }
+
+    .ym-company .article .sharegroup .s2 {
+        display: none;
+    }
+
+    .impresswarp {
+        width: 95%;
+        padding: 35px 15px 15px;
+        box-sizing: border-box
+    }
+
+    .impresswarp .tit {
+        padding: 10px
+    }
+
+    .impresswarp .tit .subtit {
+        font-size: 16px;
+        top: -5.5%
+    }
+
+    .impresswarp .im-1 li {
+        float: none;
+        width: 100%;
+        margin-right: 0
+    }
+
+    .impresswarp .im-1 li img {
+        height: auto
+    }
+
+    .impressdetails {
+        width: 95%
+    }
+
+    .impressdetails .articlebox {
+        padding: 20px
+    }
+
+    .impressdetails .articlebox .info .word {
+        padding-left: 0
+    }
+
+    .impressdetails .articlebox .info .word h2 {
+        font-size: 20px
+    }
+
+    .impressdetails .articlebox .info .word p {
+        font-size: 17px
+    }
+
+    .bannerimg .infoword {
+        width: 95%
+    }
+
+    .bannerimg .infoword h1 {
+        font-size: 18px;
+        margin: 5px 0 2px;
+        font-weight: 400
+    }
+
+    .bannerimg .infoword p {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .impressdetails .imglist ul li {
+        float: none;
+        width: 100%;
+        margin-right: 0
+    }
+
+    .newswarp .cont4 {
+        padding: 35px 15px 15px
+    }
+
+    .newswarp .cont4 .item {
+        margin: 0 auto 0;
+        padding-bottom: 25px
+    }
+
+    .newswarp .cont4 .item .img {
+        width: 100%;
+        height: auto;
+        float: none
+    }
+
+    .newswarp .cont4 ul {
+        width: 94%;
+        margin: 25px auto 0
+    }
+
+    .newswarp .cont4 ul li {
+        width: 100%;
+        float: none
+    }
+
+    .newswarp .cont4 ul li img {
+        width: 100%
+    }
+
+    .schoolitem {
+        width: 96%
+    }
+
+    .schoolitem .newscont {
+        padding: 45px 15px 15px
+    }
+
+    .schoolitem .newscont .cont h2 {
+        font-size: 20px
+    }
+
+    .schoolitem .newscont .list li {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 4%;
+        float: none;
+        border: #e5e5e5 solid 1px;
+        box-sizing: border-box;
+    }
+
+    .schoolitem .newscont .list li .info p {
+        height: auto;
+    }
+
+    .schoolactivity {
+        padding: 35px 15px 15px
+    }
+
+    .schoolactivity .titbox h1 {
+        font-size: 20px
+    }
+
+    .schoolactivity .timelinebox:before {
+        left: 20px
+    }
+
+    .schoolactivity .timelinebox .timeyear {
+        margin: 0 0 0 50px;
+    }
+
+    .newswarp .cont4 .titbox h1 {
+        font-size: 20px
+    }
+
+    .pageonewarp .tit h1 {
+        font-size: 20px
+    }
+
+    .plandetails .article .sharegroup .s2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 1280px) and (orientation: landscape) {
+    .header .logo {
+        width: 260px;
+        padding-top: 10px;
+    }
+
+    .header .logo img {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+    .header .phonebtn {
+        margin-top: 39px
+    }
+
+    .header .language {
+        padding-top: 0;
+        margin-top: 42px
+    }
+
+    .header .language a.active {
+        padding: 0;
+        border-top: 0;
+        color: #94070a
+    }
+
+    .header .language {
+        margin-top: 26px;
+    }
+
+    .header .phonebtn {
+        margin-top: 28px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .header .logo {
+        width: 30%
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .header .logo {
+        width: 165px;
+        padding-top: 8px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .bannerinfo {
+        top: 20%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .bannerinfo {
+        top: 5%;
+    }
+
+    .header .logo {
+        margin-top: 0px
+    }
+
+    .header .language {
+        float: right;
+        margin-top: 10px
+    }
+
+    .header .nav li.logoico {
+        margin-bottom: 20px
+    }
+
+    .functionwarp .functioncont {
+        margin-top: 24px;
+        padding-top: 35px
+    }
+
+    .functionwarp .cont2 .cont .radio {
+        overflow: hidden;
+        height: 60px
+    }
+
+    .functionwarp .cont2 .cont .radio span {
+        display: block;
+        line-height: 30px
+    }
+
+    .functionwarp .cont2 .cont .radio label {
+        margin-bottom: 20px
+    }
+
+    .newswarp .newsbtn a {
+        margin-right: 0;
+        font-size: 16px;
+        height: 80px;
+        background-position: center 8px;
+        line-height: 120px
+    }
+
+    .pageonewarp {
+        width: 98%;
+        padding: 25px 10px 10px;
+        box-sizing: border-box
+    }
+
+    .pageonewarp .tit .subtit {
+        font-size: 16px;
+        top: -4%
+    }
+
+    .pageonewarp ul.list li i img {
+        width: 80px;
+        height: 80px
+    }
+
+    .pageonewarp ul.list li .info h6 {
+        font-size: 16px
+    }
+
+    .pageonewarp .pagetwo .case li img {
+        height: 320px
+    }
+
+    .pageonewarp .Ymbox .case .info .btn a {
+        margin: 5px;
+    }
+
+    .impresswarp {
+        width: 98%;
+        padding: 25px 10px 10px;
+        box-sizing: border-box
+    }
+
+    .impresswarp .tit .subtit {
+        font-size: 16px;
+        top: -4%
+    }
+
+    .newswarp .newsbtn a.on:before {
+        width: 60px;
+        margin-left: -30px
+    }
+
+    .newswarp .newsbtn a.on:after {
+        border-width: 30px;
+        margin-left: -30px;
+        bottom: -93px
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header .logo {
+        margin-top: 5px
+    }
+
+    .header .language {
+        float: right;
+        margin-top: -40px;
+        margin-right: 45px;
+    }
+}
+
+@media only screen and (max-device-width: 768px) and (orientation: landscape) {
+    .indexcont3 .cont .itembox .swiper-item {
+        height: 640px
+    }
+
+    .indexcont3 .cont .itembox .swiper-wrapper .img {
+        height: 175px
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .functionwarp .functionbtn a {
+        margin-right: 0%;
+    }
+
+    .newswarp .newsbtn a {
+        margin-right: 0%;
+    }
+}
 
 .addcontactbtn .newsbtn .a3 {
     margin-right: 0;
 }
+
 .indexcont3 .cont .itembox .swiper-wrapper .info {
     width: 100%;
 }
 
-@media screen and (max-width: 767px){
-	
-.bannerinfo {
-	display: none;
+@media screen and (max-width: 767px) {
+
+    .bannerinfo {
+        display: none;
+    }
+
+    .newswarp .newsbtn a {
+        font-size: 20px;
+    }
+
+    .indexcont3 .cont .itembox .swiper-wrapper .info h1 {
+        font-size: 18px;
+    }
+
+    .newswarp .xin .a1.on {
+        background-image: url(../images/63011.png);
+        background-size: 36px;
+    }
+
+    .newswarp .xin .a2.on {
+        background-image: url(../images/63031.png);
+        background-size: 36px;
+    }
+
+    .newswarp .xin .a3.on {
+        background-image: url(../images/63021.png);
+        background-size: 36px;
+    }
 }
 
-	.newswarp .newsbtn a {
-    		font-size: 20px;
-	}
-	.indexcont3 .cont .itembox .swiper-wrapper .info h1 {
-    		font-size: 18px;
-	}
-	.newswarp .xin .a1.on {
-		background-image: url(../images/63011.png);
-		background-size: 36px;
-	}
-	.newswarp .xin .a2.on {
-		background-image: url(../images/63031.png);
-		background-size: 36px;
-	}
-	.newswarp .xin .a3.on {
-		background-image: url(../images/63021.png);
-		background-size: 36px;
-	}
-}
 /*============2017-08-04==================*/
-@media screen and (max-width: 1280px){
-	.newswarp .newsbtn a {
-	    margin-right: 0;
-	}
+@media screen and (max-width: 1280px) {
+    .newswarp .newsbtn a {
+        margin-right: 0;
+    }
 }
 
-
-
-@media screen and (max-width: 1440px){
-	.newswarp .newsbtn a {
-	     margin-right: 0%; 
-	}
+@media screen and (max-width: 1440px) {
+    .newswarp .newsbtn a {
+        margin-right: 0%;
+    }
 }
 
 

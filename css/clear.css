@@ -1,1 +1,69 @@
-body{margin:0;padding:0;font-family:Microsoft YaHei,Arial,Tahoma,sans-serif;background:#fff;font-size:12px}dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,img,li,ol,p,ul{margin:0;padding:0;border:0}li,ol,ul{list-style-type:none}table{border-collapse:collapse}table,td,th,tr{font-size:12px}input,textarea{border:0;padding:0;font-family:"Microsoft YaHei"}p{text-align:justify;text-justify:newspaper}i{font-style:normal}b{font-weight:400}img{border:none}em{font-style:normal}a{text-decoration:none;color:#000}:focus{outline:0!important}.clearfix:after{content:"";display:block;height:0;visibility:hidden;clear:both}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft YaHei, Arial, Tahoma, sans-serif;
+    background: #fff;
+    font-size: 12px
+}
+
+dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, img, li, ol, p, ul {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+li, ol, ul {
+    list-style-type: none
+}
+
+table {
+    border-collapse: collapse
+}
+
+table, td, th, tr {
+    font-size: 12px
+}
+
+input, textarea {
+    border: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei"
+}
+
+p {
+    text-align: justify;
+    text-justify: newspaper
+}
+
+i {
+    font-style: normal
+}
+
+b {
+    font-weight: 400
+}
+
+img {
+    border: none
+}
+
+em {
+    font-style: normal
+}
+
+a {
+    text-decoration: none;
+    color: #000
+}
+
+:focus {
+    outline: 0 !important
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both
+}
