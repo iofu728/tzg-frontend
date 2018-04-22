@@ -83,10 +83,10 @@
             ajax.onreadystatechange = function () {
                 //如果执行状态成功，那么就把返回信息写到指定的层里
                 if (ajax.readyState == 4 && ajax.status == 200) {
-                    msg.innerHTML = ajax.responseText;
+                    alert(name + "已登记！");
                 }
             }
-            alert(name + "已登记！");
+
         }
 
     </script>
