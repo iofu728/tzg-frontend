@@ -396,7 +396,7 @@ $(document).ready(function () {
     // 获取原始数据
     $.ajax({
         type: "GET",
-        url: '../../dat/events/allpubevents.json',
+        // url: '../../dat/events/allpubevents.json',
         dataType: "text",
         success: function (data) {
             var dataAll = [];

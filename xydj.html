@@ -86,7 +86,6 @@
                     alert(name + "已登记！");
                 }
             }
-
         }
 
     </script>
@@ -141,7 +140,7 @@
                 <input placeholder="入学年份" id="startYear" type="text" tabindex="4" required>
             </fieldset>
             <fieldset>
-                <input placeholder="毕业学位" id="educationLevel" type="text" required></input>
+                <input placeholder="毕业学位" id="educationLevel" type="text" required/>
             </fieldset>
 
             <fieldset>
@@ -186,17 +185,28 @@
                 <li><a href="http://www.irc.zju.edu.cn/irc/" title="联系我们">联系我们</a></li>
             </ul>
         </div>
-        <div class="btm btmcode"><span><img src="images/2weima.png" alt="官方微信"><p>官方微信</p></span><span><a href=""
-                                                                                                          target="_blank"><img
-                src="images/2weima.png" alt="官方微博"><p>官方微博</p></a></span></div>
-        <div class="btm btminfo"><p>鸣谢：</p>
+        <div class="btm btmcode">
+            <span>
+                <img src="images/2weima.png" alt="官方微信">
+                <p>官方微信</p>
+            </span>
+            <span>
+                <a href="" target="_blank">
+                    <img src="images/2weima.png" alt="官方微博">
+                    <p>官方微博</p>
+                </a>
+            </span>
+        </div>
+        <div class="btm btminfo">
+            <p>鸣谢：</p>
             <p>浙江大学制冷与低温研究所</p>
             <p>浙江大学制冷与低温研究所</p>
             <p>浙江大学制冷与低温研究所</p><br>
             <p>Copyright © 2018 Zhejiang Universtiy</p>
             <p>All Rights Reserved.</p>
             <p>浙江大学制冷与低温研究所所庆筹备委员会</p>
-            <p>版权所有</p></div>
+            <p>版权所有</p>
+        </div>
     </div>
 </div>
 
@@ -248,11 +258,6 @@
 
         });
     };
-
-    function checkForm() {
-        // alert("表单已提交！");
-
-    }
 </script>
 
 </body>

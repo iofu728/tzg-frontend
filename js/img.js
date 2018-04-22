@@ -1,6 +1,6 @@
 ﻿$.ajax({
     type: "GET",
-    url: '/pub/120znxq/dat/events/allpubevents.json',
+    // url: '/pub/120znxq/dat/events/allpubevents.json',
     dataType: "text",
     success: function (text) {
         data = text;
