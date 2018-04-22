@@ -1,14 +1,13 @@
 <?php
 $title = $_POST['title'];
-$url = $_POST['url'];
-$con = mysql_connect("localhost","root","root");
+$con = mysqli_connect("localhost","root","root");
 if (!$con)
   {
   die('Could not connect: ' . mysql_error());
   }
-mysql_select_db("test", $con);
-mysql_query("INSERT INTO test (title, url)
-VALUES ('$title', '$url')");
+mysqli_select_db($con,"test");
+mysqli_query($con,"INSERT INTO test (title)
+VALUES ('$title')");
 
-mysql_close($con);
+mysqli_close($con);
 ?>
