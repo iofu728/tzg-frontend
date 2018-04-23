@@ -935,10 +935,10 @@ a:hover {
 }
 
 .indexcont2 .cont .casebox .swiper-slide a span {
-    height: 50px;
+    height: 35px;
     display: block;
-    background-color: rgba(148, 7, 10, .7);
-    line-height: 50px;
+    background-color: rgba(148, 7, 10, 0.5);
+    line-height: 35px;
     font-size: 18px;
     color: #fff;
     text-align: center;
@@ -3778,7 +3778,7 @@ fieldset {
     background: none repeat scroll 0 0 rgba(155, 0, 0, 0.8);
 
     position: absolute;
-    top: 300px;
+    top: 400px;
     padding: 0px 10px;
     height: 30px;
     text-align: center;
