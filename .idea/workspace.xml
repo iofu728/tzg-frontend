@@ -2,53 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe577fb1-1bff-47f1-9398-c2a2b4e1e274" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/[原始]/xm1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/img/张绍志-2018-零碳天地.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/img/张绍志-2018-香港理工.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/img/植晓琴-2012-ICEC-日本福冈.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/img/植晓琴-2015-CEC-美国图森.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sqxm/images/xm3.jpg" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change beforePath="$PROJECT_DIR$/contact/images/addico6.png" afterPath="$PROJECT_DIR$/contact/images/addico6.png" />
-      <change beforePath="$PROJECT_DIR$/contact/images/bg-4.jpg" afterPath="$PROJECT_DIR$/contact/images/bg-4.jpg" />
-      <change beforePath="$PROJECT_DIR$/css/media.css" afterPath="$PROJECT_DIR$/css/media.css" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/images/banner-1.jpg" afterPath="$PROJECT_DIR$/images/banner-1.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/banner-3.jpg" afterPath="$PROJECT_DIR$/images/banner-3.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/countdown.png" afterPath="$PROJECT_DIR$/images/countdown.png" />
-      <change beforePath="$PROJECT_DIR$/images/img/3.png" afterPath="$PROJECT_DIR$/images/img/3.png" />
-      <change beforePath="$PROJECT_DIR$/images/img/4.png" afterPath="$PROJECT_DIR$/images/img/4.png" />
-      <change beforePath="$PROJECT_DIR$/images/img/5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/img/8.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/xiaobiao.jpg" afterPath="$PROJECT_DIR$/images/xiaobiao.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/xm1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/xm2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/xm4.jpg" afterPath="$PROJECT_DIR$/images/xm4.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/ynyw1.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/pku.js" afterPath="$PROJECT_DIR$/js/display.js" />
-      <change beforePath="$PROJECT_DIR$/ljxs.html" afterPath="$PROJECT_DIR$/ljxs.html" />
       <change beforePath="$PROJECT_DIR$/sqjy.html" afterPath="$PROJECT_DIR$/sqjy.html" />
-      <change beforePath="$PROJECT_DIR$/sqxm.html" afterPath="$PROJECT_DIR$/sqxm.html" />
-      <change beforePath="$PROJECT_DIR$/sqxm/images/184.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sqxm/images/addico6.png" afterPath="$PROJECT_DIR$/sqxm/images/addico6.png" />
-      <change beforePath="$PROJECT_DIR$/sqxm/images/xm2.jpg" afterPath="$PROJECT_DIR$/sqxm/images/xm2.jpg" />
-      <change beforePath="$PROJECT_DIR$/sqxm/images/xm3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sqxm/images/xm4.jpg" afterPath="$PROJECT_DIR$/sqxm/images/xm4.jpg" />
-      <change beforePath="$PROJECT_DIR$/sqxm/images/班级活动01.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sqxm/images/班级活动02.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sqxm/images/班级活动03.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sqzx.html" afterPath="$PROJECT_DIR$/sqzx.html" />
-      <change beforePath="$PROJECT_DIR$/ssfc.html" afterPath="$PROJECT_DIR$/ssfc.html" />
-      <change beforePath="$PROJECT_DIR$/ssfc/css/style.css" afterPath="$PROJECT_DIR$/ssfc/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/ssfc/css/xmu_base.css" afterPath="$PROJECT_DIR$/ssfc/css/xmu_base.css" />
-      <change beforePath="$PROJECT_DIR$/ssfc/images/addico6.png" afterPath="$PROJECT_DIR$/ssfc/images/addico6.png" />
-      <change beforePath="$PROJECT_DIR$/tz1.html" afterPath="$PROJECT_DIR$/tz1.html" />
-      <change beforePath="$PROJECT_DIR$/tzgg.html" afterPath="$PROJECT_DIR$/tzgg.html" />
-      <change beforePath="$PROJECT_DIR$/xqyd.html" afterPath="$PROJECT_DIR$/xqyd.html" />
-      <change beforePath="$PROJECT_DIR$/xwbd.html" afterPath="$PROJECT_DIR$/xwbd.html" />
-      <change beforePath="$PROJECT_DIR$/xydj.html" afterPath="$PROJECT_DIR$/xydj.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,8 +37,8 @@
       <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="80" column="14" lean-forward="true" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+            <state relative-caret-position="437">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -114,9 +69,11 @@
       <file leaf-file-name="sqzx.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sqzx.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-268">
-              <caret line="213" column="14" lean-forward="false" selection-start-line="213" selection-start-column="14" selection-end-line="213" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="-646">
+              <caret line="199" column="14" lean-forward="false" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
+              <folding>
+                <marker date="1524488923464" expanded="true" signature="8074:8088" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,9 +81,11 @@
       <file leaf-file-name="ssfc.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ssfc.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-724">
-              <caret line="280" column="14" lean-forward="false" selection-start-line="280" selection-start-column="14" selection-end-line="280" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="-1085">
+              <caret line="266" column="14" lean-forward="false" selection-start-line="266" selection-start-column="14" selection-end-line="266" selection-end-column="14" />
+              <folding>
+                <marker date="1524488954358" expanded="true" signature="9892:9906" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,8 +103,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1802">
-              <caret line="522" column="14" lean-forward="false" selection-start-line="522" selection-start-column="14" selection-end-line="522" selection-end-column="14" />
+            <state relative-caret-position="-1919">
+              <caret line="500" column="14" lean-forward="false" selection-start-line="500" selection-start-column="14" selection-end-line="500" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -157,7 +116,7 @@
             <state relative-caret-position="-1387">
               <caret line="463" column="0" lean-forward="false" selection-start-line="463" selection-start-column="0" selection-end-line="463" selection-end-column="0" />
               <folding>
-                <marker date="1524488479532" expanded="true" signature="25490:25504" ph="..." />
+                <marker date="1524488986538" expanded="true" signature="25490:25504" ph="..." />
               </folding>
             </state>
           </provider>
@@ -166,9 +125,11 @@
       <file leaf-file-name="xwbd.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xwbd.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-363">
+            <state relative-caret-position="-665">
               <caret line="197" column="14" lean-forward="false" selection-start-line="197" selection-start-column="14" selection-end-line="197" selection-end-column="14" />
-              <folding />
+              <folding>
+                <marker date="1524489007889" expanded="true" signature="8020:8034" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -176,9 +137,11 @@
       <file leaf-file-name="sqjy.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sqjy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1023">
-              <caret line="281" column="14" lean-forward="false" selection-start-line="281" selection-start-column="14" selection-end-line="281" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="-1387">
+              <caret line="264" column="14" lean-forward="false" selection-start-line="264" selection-start-column="14" selection-end-line="264" selection-end-column="14" />
+              <folding>
+                <marker date="1524488903878" expanded="true" signature="10871:10885" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -430,7 +393,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20575000" />
+    <option name="totallyTimeSpent" value="21072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -631,7 +594,7 @@
         <state relative-caret-position="228">
           <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -774,8 +737,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="80" column="14" lean-forward="true" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+        <state relative-caret-position="437">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -804,17 +767,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1802">
-          <caret line="522" column="14" lean-forward="false" selection-start-line="522" selection-start-column="14" selection-end-line="522" selection-end-column="14" />
+        <state relative-caret-position="-1919">
+          <caret line="500" column="14" lean-forward="false" selection-start-line="500" selection-start-column="14" selection-end-line="500" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sqjy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1023">
-          <caret line="281" column="14" lean-forward="false" selection-start-line="281" selection-start-column="14" selection-end-line="281" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="-1387">
+          <caret line="264" column="14" lean-forward="false" selection-start-line="264" selection-start-column="14" selection-end-line="264" selection-end-column="14" />
+          <folding>
+            <marker date="1524488903878" expanded="true" signature="10871:10885" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -828,17 +793,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sqzx.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-268">
-          <caret line="213" column="14" lean-forward="false" selection-start-line="213" selection-start-column="14" selection-end-line="213" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="-646">
+          <caret line="199" column="14" lean-forward="false" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
+          <folding>
+            <marker date="1524488923464" expanded="true" signature="8074:8088" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssfc.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-724">
-          <caret line="280" column="14" lean-forward="false" selection-start-line="280" selection-start-column="14" selection-end-line="280" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="-1085">
+          <caret line="266" column="14" lean-forward="false" selection-start-line="266" selection-start-column="14" selection-end-line="266" selection-end-column="14" />
+          <folding>
+            <marker date="1524488954358" expanded="true" signature="9892:9906" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -855,16 +824,18 @@
         <state relative-caret-position="-1387">
           <caret line="463" column="0" lean-forward="false" selection-start-line="463" selection-start-column="0" selection-end-line="463" selection-end-column="0" />
           <folding>
-            <marker date="1524488479532" expanded="true" signature="25490:25504" ph="..." />
+            <marker date="1524488986538" expanded="true" signature="25490:25504" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xwbd.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-363">
+        <state relative-caret-position="-665">
           <caret line="197" column="14" lean-forward="false" selection-start-line="197" selection-start-column="14" selection-end-line="197" selection-end-column="14" />
-          <folding />
+          <folding>
+            <marker date="1524489007889" expanded="true" signature="8020:8034" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
