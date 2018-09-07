@@ -22,7 +22,7 @@
     }
   },
   "parser": "babel-eslint",
-  "extends": "umi",
+  "extends": "node_modules",
   "plugins": [
     "babel",
     "jsx-a11y",

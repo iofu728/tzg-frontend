@@ -3,8 +3,8 @@
   "author": "Gun JianPan",
   "scripts": {
     "lint": "eslint --ext '.js' src test",
-    "eslint-fix": "eslint ./ --fix --ext '.js'",
-    "eslint-fix-test": "eslint _tests_ --fix --ext '.js'",
+    "eslint-fix": "eslint ./ --fix --ext '.html'",
+    "eslint-fix-test": "eslint _tests_ --fix --ext '.js'"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-0",
