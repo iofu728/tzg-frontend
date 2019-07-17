@@ -1,0 +1,8 @@
+# node modueles
+node_modules
+yarn-error.log
+
+# ide
+.idea
+.vscode
+.history
